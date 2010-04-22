@@ -1,0 +1,7 @@
+.destroy, .show, .create, .edit {
+  background: url('/images/crud_css_sprite.png?1271944068') no-repeat;
+}
+.destroy { background-position: 0px 0px; width: 16px; height: 16px; }
+.show { background-position: 0px -21px; width: 16px; height: 16px; }
+.create { background-position: 0px -42px; width: 16px; height: 16px; }
+.edit { background-position: 0px -63px; width: 16px; height: 16px; }

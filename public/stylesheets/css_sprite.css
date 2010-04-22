@@ -1,0 +1,6 @@
+.arrow_rotate_clockwise, .arrow_switch, .arrow_rotate_anticlockwise {
+  background: url('/images/css_sprite.png?1271944068') no-repeat;
+}
+.arrow_rotate_clockwise { background-position: 0px 0px; width: 16px; height: 16px; }
+.arrow_switch { background-position: 0px -21px; width: 16px; height: 16px; }
+.arrow_rotate_anticlockwise { background-position: 0px -42px; width: 16px; height: 16px; }
