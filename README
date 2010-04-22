@@ -1,7 +1,30 @@
 == Exemplo usando a gem css_sprite ==
 
+Para ver a aplicação funcionando:
+
+1. gem install css_sprite -v=1.4.5
+2. script/server
+3. Acesse a página http://localhost:3000 no seu browser
+
+
 Para gerar as imagens sprite a qualquer momento, digite:
 
 rake css_sprite:build
 
+1 arquivo css vai ser gerado para cada pasta que tenha o nome terminado 
+por css_sprite na pasta public/images
 
+Cada arquivo css terá uma classe para cada nome de imagem existente no
+diretório que termina com css_sprite. Ou seja, se colocarmos uma imagem
+edit.png na pasta public/images/css_sprite, uma classe css chamada edit
+vai ser criada com o posicionamento dessa imagem no novo arquivo sprite.
+
+== Autor ==
+
+Otávio Sampaio - osampaio@riopro.com.br
+Riopro, Gestão Inteligente
+http://blog.riopro.com.br
+
+== Mais sobre a gem css_sprite em: ==
+
+http://www.huangzhimin.com/entries/190-css-sprite-best-practices

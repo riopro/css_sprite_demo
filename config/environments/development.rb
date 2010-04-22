@@ -1,6 +1,6 @@
 # Settings specified here will take precedence over those in config/environment.rb
 
-config.gem "css_sprite"
+config.gem "css_sprite", :version => '1.4.5'
 
 # In the development environment your application's code is reloaded on
 # every request.  This slows down response time but is perfect for development
