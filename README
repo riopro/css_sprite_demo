@@ -1,3 +1,7 @@
 == Exemplo usando a gem css_sprite ==
 
+Para gerar as imagens sprite a qualquer momento, digite:
+
+rake css_sprite:build
+
 
